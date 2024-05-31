@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gradient-to-r from-indigo-500 to-blue-500 ">
+    <div id="header"></div>
+    <!-- inserisci qui il container-->
+    <div
+        class="container mx-auto px-4 sm:px-6 lg:px-8 min-h-screen border-solid border-2 border-gray-200 rounded-xl p-10 m-10">
+        <!-- Contenuto principale della pagina -->
+        <main class=" mt-20">
+            <h1 class="text-3xl font-bold  ">Benvenuto nel mio Portfolio</h1>
+            <p class="">Qui troverai una selezione dei miei progetti più recenti e informazioni sul mio background
+                professionale.</p>
+
+            <div class="flex gap-4 my-10 img-lenguage scroll-bar rounded-lg p-5 justify-around">
+                <img src="img/Laravel.png" class="object-scale-down h-30 w-96  img " style="display: none;"
+                    alt="Laravel">
+
+                <img src="img/php.png" class="object-scale-down h-30 w-96 img " style="display: none;" alt="PHP" title="PHP">
+                <img src="img/mysql.png" class="object-scale-down h-30 w-96 img " style="display: none;" alt="MySQL" title="MySQL">
+                <img src="img/mariadb.png" class="object-scale-down h-30 w-96 img ms-3" style="display: none;" title="MariaDB"
+                    alt="MariaDB">
+                <img src="img/frontend.png" class="object-scale-down h-30 w-96 img ms-3" style="display: none;" title="HTML, CSS, Javascript"
+                    alt="HTML CSS JS">
+                <img src="img/jquery.png" class="object-scale-down h-30 w-96 img ms-3" style="display: none;". title="jQuery"
+                    alt="jQuery">
+                <img src="img/bootstrap.png" class="object-scale-down h-30 w-96 img ms-3" style="display: none;" title="Bootstrap"
+                    alt="Bootstrap">
+                <img src="img/tailwind.png" class="object-scale-down h-30 w-96 img ms-3" style="display: none;" title="Tailwind"
+                    alt="Tailwind">
+
+
+            </div>
+        </main>
+    </div>
+
+
+
+
+    <div id="footer"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/layout.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $(".img").fadeIn(2000);
+        })
+
+
+    </script>
+</body>
+
+</html>

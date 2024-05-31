@@ -1,0 +1,30 @@
+.img-lenguage {
+    background: linear-gradient(to right, rgba(213, 200, 200, 0.077), rgba(174, 169, 169, 0.104));
+}
+
+h1,
+p {
+    color: white;
+}
+
+.img-lenguage img {
+    width: 200px;
+    height: 200px;
+}
+img:hover{
+    cursor: pointer;
+}
+
+.scroll-bar{
+    overflow-x: auto;
+    scrollbar-width: none;
+    
+}
+
+.scroll-bar:hover {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #757575 #f1f1f100;
+}
+
+
