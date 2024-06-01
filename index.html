@@ -6,57 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio 2024</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="bg-gradient-to-r from-indigo-500 to-blue-500 ">
+<body class="bg-gradient-to-r from-indigo-500 to-blue-500">
     <div id="header"></div>
     <!-- inserisci qui il container-->
     <div
         class="container mx-auto px-4 sm:px-6 lg:px-8 min-h-screen border-solid border-2 border-gray-200 rounded-xl p-10 m-10">
         <!-- Contenuto principale della pagina -->
-        <main class=" mt-20">
-            <h1 class="text-3xl font-bold  ">Benvenuto nel mio Portfolio</h1>
-            <p class="">Qui troverai una selezione dei miei progetti più recenti e informazioni sul mio background
-                professionale.</p>
-
-            <div class="flex gap-4 my-10 img-lenguage scroll-bar rounded-lg p-5 justify-around">
-                <img src="img/Laravel.png" class="object-scale-down h-30 w-96  img " style="display: none;"
-                    alt="Laravel">
-
-                <img src="img/php.png" class="object-scale-down h-30 w-96 img " style="display: none;" alt="PHP" title="PHP">
-                <img src="img/mysql.png" class="object-scale-down h-30 w-96 img " style="display: none;" alt="MySQL" title="MySQL">
-                <img src="img/mariadb.png" class="object-scale-down h-30 w-96 img ms-3" style="display: none;" title="MariaDB"
-                    alt="MariaDB">
-                <img src="img/frontend.png" class="object-scale-down h-30 w-96 img ms-3" style="display: none;" title="HTML, CSS, Javascript"
-                    alt="HTML CSS JS">
-                <img src="img/jquery.png" class="object-scale-down h-30 w-96 img ms-3" style="display: none;". title="jQuery"
-                    alt="jQuery">
-                <img src="img/bootstrap.png" class="object-scale-down h-30 w-96 img ms-3" style="display: none;" title="Bootstrap"
-                    alt="Bootstrap">
-                <img src="img/tailwind.png" class="object-scale-down h-30 w-96 img ms-3" style="display: none;" title="Tailwind"
-                    alt="Tailwind">
+        <main class="mt-20 text-white">
+            <div class="fade-in-section">
+                <h1 class="text-3xl font-bold text-white">Benvenuto nel mio Portfolio</h1>
+                <p class="text-xl">Qui troverai una selezione dei miei progetti più recenti e informazioni sul mio background
+                    professionale.</p>
+            </div>
 
 
+            <div class="fade-in-section mt-20">
+                <h1 class="text-3xl font-bold text-white">Presentazioni</h1>
+            </div>
+            <div class="fade-in-section  mt-5 mx-auto flex justify-center">
+                <p class="shadow-lg  p-10 text-base">
+                    Mi presento, sono un programmatore con esperienza nello sviluppo di vari progetti nel corso della mia carriera.
+                    <br><br>
+                    Ho realizzato siti per la gestione industriale 
+                    nell'ambito dell'Industria 4.0, sistemi per la 
+                    gestione di più aziende sanitarie, e <i>gestionali complessi</i> per aziende private.
+                    <br><br>
+                    Ho iniziato il mio percorso con 
+                    pagine HTML e CSS, per poi ampliare le 
+                    mie competenze con JavaScript, PHP e Java.
+                    <br>
+                    Inoltre, ho svolto diversi <a href="professional-courses.html"> corsi </a> professionali 
+                    che hanno arricchiato le mia conoscenze da developer.
+                    Tutt'ora mi tengo aggiornato tramite corsi, documentazioni online e sviluppo di progetti personali.
+                    Ogni <a href="projects.html">progetto personale </a> è una opportunità per imparare cose nuove.
+                    <br><br>
+                    Sviluppo progetti full stack, <br>
+                    il che significa che partecipo alla creazione di un progetto <i>dall'architettura 
+                        del database</i>, alla logica di business del <i>backend</i>, 
+                    fino alla struttura grafica del <i>frontend</i>. <br>
+                    Questo mi 
+                    consente di essere completamente autonomo nello sviluppo.
+                    <br><br>
+
+
+                </p>
+            </div>
+
+            <div class="fade-in-section mt-20">
+                <h1 class="text-3xl font-bold text-white">Filosofia del codice</h1>
+                <p class="text-xl">Una delle cose più importanti è l'organizzazione</p>
+            </div>
+            <div class="fade-in-section mt-5 mx-auto  justify-center shadow-lg  p-10  text-base">
+                <p class="">
+                    Spesso mi accade di visualizzare codice disordinato, senza classi, senza una buona struttura delle cartelle (sempre se è presente). <br>
+                    E da qui capisco che stiamo lavorando su un progetto che farà rallentare me e i colleghi.
+                    <br><br>
+                  
+                    <img src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="rounded-lg shadow-md">
+                           
+                    <strong>Esempio di codice spaghetti ai massimi livelli</strong> <br>
+                    Un esempio è quando inseriscono in un controller - parlando di pattern MVC - con tutte le funzioni all'interno. <br>
+                    Oppure che scrivono ancora le query in stringhe, quando ormai da una decina di anni lo sviluppo web è ad oggetti. <br>
+                    E ho visto altri obbrobri che non vi sto qui a raccontare.
+                    <br><br>
+                    Tutti possono dire di lavorare con l'ultimo framework ultra potente, ma poi lo utilizzano veramente bene?<br>
+                    Questi aspetti negativi citati poc'anzi posso aspettarmelo da una figura junior o entry level, ma non da chi programma ormai da 2 anni. <br>
+                    
+                    <strong>Motivi per avere un codice ordinato</strong>
+                    <br><br>
+                    Tempo che una persona si scorda dove ha messo la funzione in quel controller e ci metterà mezz'ora per trovarla. <br>
+                    Inoltre, programmare in modo disordinato è pure un danno ai tuoi colleghi <br>
+                    Per questo ci tengo all'ordine, alla precisione e ai <i>//commenti</i>. <br>
+                    
+
+                    <br><br>
+                    
+                    Avere del codice ordinato significa:
+                    <ul>
+                        <li>Non perdere tempo per poter modificare qualcosa.</li>
+                        <li>Non stressarsi inutilmente per dover trovare metodi e funzioni.</li>
+                        <li>Non doversi inventare nomi strani per un metodo per una classe che ne contiene 100 di metodi perché per pigrizia non si ha voluto creare unaltra classe.</li>
+                        <li>Beneficio psicologico per i prossimi programmatori che dovranno implementare il progetto.</li>
+                    </ul>
+
+
+
+
+                </p>
             </div>
         </main>
     </div>
-
-
-
+    <a class="fa fa-arrow-up btn-arrow" id="btn-arrow" href="#top" aria-hidden="true"></a>
 
     <div id="footer"></div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <script src="js/layout.js"></script>
-    <script>
-
-        $(document).ready(function () {
-            $(".img").fadeIn(2000);
-        })
-
-
-    </script>
 </body>
+<script src="js/layout.js"></script>
+<script src="js/app.js"></script>
 
 </html>

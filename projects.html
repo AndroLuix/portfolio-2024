@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+
+<body class="bg-gradient-to-r from-indigo-500 to-blue-500 ">
+    <div id="header"></div>
+    <div
+        class="container mx-auto px-4 sm:px-6 lg:px-8 min-h-screen border-solid border-2 border-gray-200 rounded-xl p-10 m-10">
+        <!-- Contenuto principale della pagina -->
+        <main class=" mt-20">
+            <h1 class="text-3xl font-bold  ">Projects</h1>
+            <p class="mb-4">Qui troverai una selezione dei progetti più
+                recenti.</p>
+
+            <button type="button" onclick="toggleCards('#mine','#lavoro')"
+                class="inline-block rounded border-2 border-primary px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:border-primary-accent-300 hover:bg-primary-50/50 hover:text-primary-accent-300 focus:border-primary-600 focus:bg-primary-50/50 focus:text-primary-600 focus:outline-none focus:ring-0 active:border-primary-700 active:text-primary-700 motion-reduce:transition-none dark:text-primary-500 dark:hover:bg-blue-950 dark:focus:bg-blue-950"
+                data-twe-ripple-init>
+                Perosnali
+            </button>
+            <button type="button" onclick="toggleCards('#lavoro','#mine')"
+                class="inline-block rounded border-2 border-primary-100 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:border-primary-accent-200 hover:bg-secondary-50/50 focus:border-primary-accent-200 focus:bg-secondary-50/50 focus:outline-none focus:ring-0 active:border-primary-accent-200 motion-reduce:transition-none dark:border-primary-400 dark:text-primary-300 dark:hover:bg-blue-950 dark:focus:bg-blue-950"
+                data-twe-ripple-init>
+                Lavoro
+            </button>
+
+
+
+            <!-- contenitore cards work-->
+            <div class="my-10 rounded-lg p-5" id="lavoro" style="display: none;">
+                <!--cards-->
+                <!-- villa regina-->
+                <div class="fade-in-section max-w-6xl bg-transparent rounded overflow-hidden shadow-lg">
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-1/2 p-5 flex items-center justify-center" style="min-height: 200px;">
+                            <div class="bg-center bg-no-repeat bg-contain w-full h-full"
+                                style="background-image: url('img/projects/villa_regina.png');"></div>
+                        </div>
+                        <div class="w-full md:w-1/2 bg-black bg-opacity-50 px-6 py-4">
+                            <div class="font-bold text-xl text-white mb-2 px-5">Villa regina - ricevimenti</div>
+                            <p class="text-gray-200 text-base p-8">
+                                <strong>Green Tech Solution</strong> <br>
+                                Il progetto è un gestionale di ricevimenti abbastanza dettagliato. <br>
+                                Il software permette di registrare gli utenti inserendo i
+                                propri dati, mentre la receptions e l'amministratore gestiscono
+                                l'afflusso delle prenotazioni,
+                                degli utili per l'organizzazione dell'evento,
+                                la disposizione delle sale, etc.
+                            </p>
+                            <p class="text-gray-200 text-base p-8 flex items-start">
+                                <strong>Tecnologie</strong>
+                            <div class="flex flex-wrap gap-3 mt-3">
+                                <div class="mb-5 text-gray-200 w-32 flex gap-3 border-2 p-2 rounded border-teal-400">
+                                    <img src="img/Laravel.png" width="30px" alt="">
+                                    Laravel
+                                </div>
+                                <div class="mb-3 text-gray-200 w-32 flex gap-3 border-2 p-2 rounded border-sky-600">
+                                    <img src="img/mariadb.png" width="30px" alt="">
+                                    Maria DB
+                                </div>
+                                <div
+                                    class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-purple-500">
+                                    <img src="img/jquery.png" width="30px" alt="">
+                                    jQuery
+                                </div>
+                                <div
+                                    class="mb-3 text-gray-200 w-full items-center flex gap-3 border-2 p-2 rounded border-yellow-600">
+                                    <img src="img/frontend.png" width="100px" alt="">
+                                    HTML5, CSS, Javascript
+                                </div>
+                                <div
+                                    class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-fuchsia-500">
+                                    <img src="img/bootstrap.png" width="30px" alt="">
+                                    Bootstrap
+                                </div>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- JKJ-->
+                <div class="fade-in-section flex justify-end mt-20 md:mt-80">
+                    <!-- jkj-->
+                    <div class="max-w-6xl bg-transparent rounded overflow-hidden shadow-lg">
+                        <div class="flex flex-wrap">
+                            <div class="w-full md:w-1/2 p-5 flex items-center justify-center"
+                                style="min-height: 200px;">
+                                <div class="bg-center bg-no-repeat bg-contain w-full h-full"
+                                    style="background-image: 
+                                url('https://images.pexels.com/photos/38271/ipad-map-tablet-internet-38271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+                                </div>
+                            </div>
+
+                            <div class="w-full md:w-1/2 bg-black bg-opacity-50 px-6 py-4">
+                                <div class="font-bold text-xl text-white mb-2 px-5">Percorsi Tattili - JKJ</div>
+                                <p class="text-gray-200 text-base p-8">
+                                    <strong>Green Tech Solution</strong> <br>
+                                    Il progetto ha lo scopo di mappare tutti i percorsi tattili della zona selezionata,
+                                    permettendo di ricevere un report <br>
+                                    Tramite i servizi di mappe online è possibile selezionare una zona o selezionare il
+                                    comune
+                                    per verificare la presenza di percorsi tattili.
+                                    Per questo è stato svolto un training per l'AI per riconoscere tramite immagini
+                                    satellitari i percorsi tattili e le condizioni delle strisce.
+                                </p>
+                                <p class="text-gray-200 text-base p-8 flex items-start">
+                                    <strong>Tecnologie</strong>
+                                <div class="flex flex-wrap gap-3 mt-3">
+                                    <div
+                                        class="mb-5 text-gray-200 w-32 flex gap-3 border-2 p-2 rounded border-teal-400">
+                                        <img src="img/php.png" width="40px" alt="">
+                                        PHP
+                                    </div>
+                                    <div
+                                        class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-sky-400">
+                                        <img src="img/python.png" width="30px" alt="">
+                                        Python
+                                    </div>
+                                    <div class="mb-3 text-gray-200 w-32 flex gap-3 border-2 p-2 rounded border-sky-600">
+                                        <img src="img/mariadb.png" width="30px" alt="">
+                                        MariaDB
+                                    </div>
+                                    <div
+                                        class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-purple-500">
+                                        <img src="img/jquery.png" width="30px" alt="">
+                                        jQuery
+                                    </div>
+                                    <div
+                                        class="mb-3 text-gray-200 w-full items-center flex gap-3 border-2 p-2 rounded border-yellow-600">
+                                        <img src="img/frontend.png" width="100px" alt="">
+                                        HTML5, CSS, Javascript
+                                    </div>
+                                    <div
+                                        class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-fuchsia-500">
+                                        <img src="img/bootstrap.png" width="30px" alt="">
+                                        Bootstrap
+                                    </div>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- totem -->
+                <div class="fade-in-section max-w-6xl bg-transparent rounded overflow-hidden shadow-lg mt-20 md:mt-60">
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-1/2 p-5 flex items-center justify-center" style="min-height: 200px;">
+                            <div class="bg-center bg-no-repeat bg-contain w-full h-full"
+                                style="background-image: 
+                            url('https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+                            </div>
+                        </div>
+
+                        <div class="w-full md:w-1/2 bg-black bg-opacity-50 px-6 py-4">
+                            <div class="font-bold text-xl text-white mb-2 px-5">Totem - Questionario</div>
+                            <p class="text-gray-200 text-base p-8">
+                                <strong>Green Tech Solution</strong> <br>
+                                Il progetto tratta dell'installazione di un questionario e di scaricare un report degli
+                                utenti che hanno svolto i test <br>
+                                L'amministratore può inserie slides da far leggere agli utenti. <br>
+                                Può creare questionari inserendoli nel file access. <br>
+                                L'utente registrandosi e compilando il questionario allo stesso tempo riempie il file
+                                excel con il risultato finale. <br>
+                                Il file excel con tutte le rispooste date dagli utenti può essere scaricato tramite il
+                                pannello di controllo.
+                            </p>
+                            <p class="text-gray-200 text-base p-8 flex items-start">
+                                <strong>Tecnologie</strong>
+                            <div class="flex flex-wrap gap-3 mt-3">
+                                <div
+                                    class="mb-5 items-center text-gray-200 w-32 flex gap-3 border-2 p-2 rounded border-teal-400">
+                                    <img src="img/php.png" width="60px" alt="">
+                                    PHP
+                                </div>
+                                <div class="mb-3 text-gray-200 w-32 flex gap-3 border-2 p-2 rounded border-sky-600">
+                                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/2_Microsoft_Access_logo_logos-4096.png"
+                                        width="30px" alt="">
+                                    Microsoft Access
+                                </div>
+                                <div
+                                    class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-purple-500">
+                                    <img src="img/jquery.png" width="30px" alt="">
+                                    jQuery
+                                </div>
+                                <div
+                                    class="mb-3 text-gray-200 w-full items-center flex gap-3 border-2 p-2 rounded border-yellow-600">
+                                    <img src="img/frontend.png" width="100px" alt="">
+                                    HTML5, CSS, Javascript
+                                </div>
+                                <div
+                                    class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-fuchsia-500">
+                                    <img src="img/bootstrap.png" width="30px" alt="">
+                                    Bootstrap
+                                </div>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- my projects-->
+            <div class="  fade-in-section rounded-lg p-5 " id="mine">
+
+                <!--cards-->
+                <!-- ecommerce laravel -->
+                <div class="fade-in-section max-w-6xl bg-transparent rounded overflow-hidden shadow-lg  md:mt-10">
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-1/2 p-5 flex items-center justify-center" style="min-height: 200px;">
+                            <div class="bg-center bg-no-repeat bg-contain w-full h-full"
+                                style="background-image: url('https://envato-shoebox-0.imgix.net/c39d/102e-734e-4d4b-9ea5-1fc43e563531/230329806.jpg?auto=compress%2Cformat&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&w=1000&fit=max&markalign=center%2Cmiddle&markalpha=18&s=024718950f5eaf6aac46740659493fc5');">
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 bg-black bg-opacity-50 px-6 py-4">
+                            <div class="font-bold text-xl text-white mb-2 px-5">Libreria - ecommerce</div>
+                            <p class="text-gray-200 text-base p-8">
+                                <strong>Ecommerce</strong><br>
+                                Il progetto è un ecommerce per un singolo amministratore.<br>
+                                un ecommerce fatto in <i>artisan.</i><br>
+                                Nel progetto l'amministratore può gestire gli sconti, ordini, mail, e
+                                ricevere una analisi dei dati riguardo le vendite e le zone.
+                                Inolte è presente un sistem di recupero credenziali, e di verifica utente per i
+                                consutmers. <br>
+                                Ho voluto creare questo progetto per mostrare le abilità di laravel: codice pulito e
+                                niente spaghetti code. <br>
+                                <strong>Laravel</strong> permette di avere un progetto complesso ma ordinato, con poco
+                                codice ma efficiente. <br>
+                            <div class="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
+                                <a href="https://github.com/AndroLuix/ecommerce-library" target="_blank">
+                                    <img src="img/github.png" alt="">
+                                    <div class="text-left ml-3">
+                                        <p class='text-xs text-gray-200'>Visualizza il progetto </p>
+                                        <p class="text-sm md:text-base"> <i>ecommerce library</i></p>
+                                </a>
+                            </div>
+                        </div>
+                        </p>
+                        <p class="text-gray-200 text-base p-8 flex items-start">
+                            <strong>Tecnologie</strong>
+                        <div class="flex flex-wrap gap-3 mt-3">
+                            <div class="mb-5 text-gray-200 w-32 flex gap-3 border-2 p-2 rounded border-teal-400">
+                                <img src="img/Laravel.png" width="30px" alt="">
+                                Laravel
+                            </div>
+                            <div class="mb-3 text-gray-200 w-32 flex gap-3 border-2 p-2 rounded border-sky-600">
+                                <img src="img/mysql.png" width="30px" alt="">
+                                MySQL
+                            </div>
+                            <div
+                                class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-purple-500">
+                                <img src="img/jquery.png" width="30px" alt="">
+                                jQuery
+                            </div>
+                            <div
+                                class="mb-3 text-gray-200 w-full items-center flex gap-3 border-2 p-2 rounded border-yellow-600">
+                                <img src="img/frontend.png" width="100px" alt="">
+                                HTML5, CSS, Javascript
+                            </div>
+                            <div
+                                class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-fuchsia-500">
+                                <img src="img/bootstrap.png" width="30px" alt="">
+                                Bootstrap
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- movies -->
+            <div class="fade-in-section flex justify-end mt-20 md:mt-80">
+                <div class="max-w-6xl bg-transparent rounded overflow-hidden shadow-lg">
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-1/2 p-5 flex items-center justify-center" style="min-height: 200px;">
+                            <div class="bg-center bg-no-repeat bg-contain w-full h-full"
+                                style="background-image: url('https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 bg-black bg-opacity-50 px-6 py-4">
+                            <div class="font-bold text-xl text-white mb-2 px-5">Movies</div>
+                            <p class="text-gray-200 text-base p-8">
+                                <strong>Symfony Movies</strong> <br>
+                                Hai sempre desiderato gestire un cinema? <br>
+                                Oppure avere una lista di film da guardare, anziché scrivere tutto in una "todo list"
+                                perché non utilizzare una web app fatta apposta con l'atmosfera da cinema? <br>
+                                Tutto questo con Symfony, padre di laravel. Seppure datato è un framework di tutto
+                                rispetto. <br>
+                                Ora dimmi, qual'è il tuo film preferito? Anzi, crea subito la lista con questa
+                                fantastica web app! <br>
+                            </p>
+
+                            <!-- github link-->
+                            <div class="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
+                                <a href="https://github.com/AndroLuix/movies-symfony" target="_blank">
+                                    <img src="img/github.png" alt="">
+                                    <div class="text-left ml-3">
+                                        <p class='text-xs text-gray-200'>Visualizza il progetto </p>
+                                        <p class="text-sm md:text-base"> <i>Symfony Movies</i></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- tecnologie -->
+                            <p class="text-gray-200 text-base p-8 flex items-start">
+                                <strong>Tecnologie</strong>
+                            <div class="flex flex-wrap gap-3 mt-3">
+                                <div class="mb-5 text-gray-200 w-32 flex gap-3 border-2 p-2 rounded border-teal-400">
+                                    <img src="https://th.bing.com/th/id/R.e3421cf6125db439c37d32daaf63da1d?rik=9jCBXoNDWA82Xw&pid=ImgRaw&r=0"
+                                        width="40px" alt="">
+                                    Symfony
+                                </div>
+                                <div class="mb-3 text-gray-200 w-32 flex gap-3 border-2 p-2 rounded border-sky-600">
+                                    <img src="img/mysql.png" width="30px" alt="">
+                                    MySQL
+                                </div>
+                                <div
+                                    class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-purple-500">
+                                    <img src="img/jquery.png" width="30px" alt="">
+                                    jQuery
+                                </div>
+                                <div
+                                    class="mb-3 text-gray-200 w-full items-center flex gap-3 border-2 p-2 rounded border-yellow-600">
+                                    <img src="img/frontend.png" width="100px" alt="">
+                                    HTML5, CSS, Javascript
+                                </div>
+                                <div
+                                    class="mb-3 text-gray-200 w-32 items-center flex gap-3 border-2 p-2 rounded border-fuchsia-500">
+                                    <img src="img/bootstrap.png" width="30px" alt="">
+                                    Bootstrap
+                                </div>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- react native todo list -->
+            <div class="fade-in-section max-w-6xl bg-transparent rounded overflow-hidden shadow-lg mt-20 md:mt-60">
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-1/2 p-5 flex items-center justify-center" style="min-height: 200px;">
+                        <div class="bg-center bg-no-repeat bg-contain w-full h-full"
+                            style="background-image: url('https://th.bing.com/th/id/R.2f07f25eaecf4f03c6bc7a8fe5b36b2a?rik=K0%2fdsNUrBi4Ygw&pid=ImgRaw&r=0');">
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 bg-black bg-opacity-50 px-6 py-4">
+                        <div class="font-bold text-xl text-white mb-2 px-5">Todo List App</div>
+                        <p class="text-gray-200 text-base p-8">
+                            <strong>React Native</strong> <br>
+                            Una todolist come app? Perché no? <br>
+                            Beh... In effetti è inutile, abbiamo tutti un app nativa nel proprio smartphone. <br>
+                            Esatto, un app, non una web app. <br>
+                            Ho voluto provare <i>React Native</i>, devo dire che è un ottimo framework.
+                        </p>
+
+                        <!-- github link-->
+                        <div class="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
+                            <a href="https://github.com/AndroLuix/todo-list-app" target="_blank">
+                                <img src="img/github.png" alt="">
+                                <div class="text-left ml-3">
+                                    <p class='text-xs text-gray-200'>Visualizza il progetto </p>
+                                    <p class="text-sm md:text-base"> <i>Todo List App</i></p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <!-- tecnologie -->
+                        <p class="text-gray-200 text-base p-8 flex items-start">
+                            <strong>Tecnologie</strong>
+                        <div class="flex flex-wrap gap-3 mt-3">
+                            <div
+                                class="mb-5 text-gray-200 w-full md:w-100 items-center flex gap-3 border-2 p-2 rounded border-teal-400">
+                                <img src="https://th.bing.com/th/id/R.c3ba82a536fe4983dad4c06b578dcd5d?rik=P4VNxytQXLJSJw&pid=ImgRaw&r=0"
+                                    width="100px" alt="">
+                                React Native
+                            </div>
+                            <div
+                                class="mb-3 text-gray-200 w-full md:w-100 items-center flex gap-3 border-2 p-2 rounded border-fuchsia-500">
+                                <img src="img/bootstrap.png" width="100px" alt="">
+                                Bootstrap
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+    </div>
+
+
+
+    <a class="fa fa-arrow-up btn-arrow" id="btn-arrow" href="#top" aria-hidden="true"></a>
+
+    <div id="footer"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/layout.js"></script>
+
+    <script src="js/app.js"> </script>
+
+</body>
+
+</html>
